@@ -1,0 +1,72 @@
+UI: {
+	NoInputDevice: 无输入设备
+	EnableTestMode: 打开麦克风和测试以可视化声音
+	Mic: 麦克风
+	Test: 测试
+	Denoise: 降噪
+	NoIcons: 禁用图标
+	VolumeDisplay: 音量
+	ChannelDisplay: 频道
+	NotOnline: 离线
+	NoOtherPlayers: 无可用玩家
+	CurrentlyTracking: 正在监测：
+	Distance: "{0} 英尺"
+	MutedYes: 静音： 是
+	MutedNo: 静音： 否
+	Inf: 无限
+
+	Tooltips: {
+		Visualizer:
+			'''
+			您当前的语音输入状态
+			音量是您当前的语音输入音量
+			频道是您当前所在的频道
+			其他玩家只有在与您处于同一频道时才能听到您的声音
+			'''
+		DeviceSwitcher:
+			'''
+			显示您当前使用的输入设备
+			按下右侧按钮以切换设备
+			'''
+		DualKnob:
+			'''
+			按住拖动以调节您的输入音量
+			使用鼠标滚轮调整您的声音频道
+			'''
+		PlayerDisplay:
+			'''
+			您可在此界面查看选定玩家的状态
+			按下右上侧按钮以切换玩家
+			按下右下侧按钮以屏蔽其声音
+			'''
+		OpenMic:
+			'''
+			选定此项后，您的声音将持续传输
+			建议在此设置下使用降噪功能
+			'''
+		PushToTalk:
+			'''
+			选定此项后，您的声音只有在按住按键时才会传输
+			您可以在控件设置中绑定按键
+			'''
+		Slider:
+			'''
+			使用此滑块调整声音的最大可听距离
+			距离显示在右侧（以物块为单位）
+			设置为0时，声音传输无距离限制
+			'''
+		Mic: 开启后，你的麦克风会开始录制你的声音
+		Test:
+			'''
+			开启后，你将能够听到自己的声音
+			如果“测试”和“麦克风”开关同时开启，则将显示音频可视化器
+			'''
+		Denoise: 开启后，你的声音将应用降噪效果
+		NoIcons: 开启后，不会显示语音图标
+	}
+}
+
+Keybinds: {
+	VoiceControlPanel.DisplayName: 打开声音控制面板
+	PushToTalk.DisplayName: 按住说话
+}

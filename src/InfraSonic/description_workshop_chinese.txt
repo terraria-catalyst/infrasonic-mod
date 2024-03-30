@@ -1,0 +1,21 @@
+﻿InfraSonic 模组可以让您和朋友们直接通过泰拉语音聊天，不需要任何第三方软件！
+
+这个Mod相比语音软件有以下优点：
+
+[list]
+[*] 音乐音量自动调节，当有人在说话时，自动降低游戏背景音乐的音量
+[*] 近距离聊天，玩家离得越近声音就越大
+[*] 降噪，滤去背景中的噪音
+[*] 与 Terraria Overhaul(大修模组) 兼容的声音遮挡和混响支持
+[/list]
+
+使用方法：
+1. 订阅此Mod
+2. 进入游戏，进入“控件”，拉到底下，为“语音按键”设置一个快捷键
+3. 按下此键可打开控制面板，用于配置语音聊天的一切
+
+感谢 lapisqui 在模组测试和调试过程中提供的帮助。
+感谢 Entropy 帮助测试 Linux 兼容性。
+
+模组在 [url=https://github.com/terraria-catalyst/infrasonic-mod]GitHub[/url] 上开源
+[quote=tModLoader]Developed By Oli, Cyrilly, 轩天一夏[/quote]

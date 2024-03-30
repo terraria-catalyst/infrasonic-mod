@@ -1,0 +1,3 @@
+- Potentially allow for configurable VoIP bitrate.
+- UltraSonic integration, specifically music sharing/streaming.
+- Look into packaging MacOS binaries with zig.

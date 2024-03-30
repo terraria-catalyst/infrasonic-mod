@@ -1,0 +1,37 @@
+The InfraSonic mod allows you and your friends to chat via voice directly in Terraria, with no need for any third-party software!
+
+Some of this mod's features:
+- Background Music Ducking, which automatically lowers the volume of the game's background music when someone is speaking.
+- Proximity Chat, which introduces a positional effect to voices, and the closer the player, the louder the voice.
+- Noise Suppression, to filter out unwanted background sounds.
+- Sound occlusion and reverb support with Terraria Overhaul and Terraria Ambience.
+
+How to use:
+1. Subscribe to this Mod.
+2. Enter the game, go to "Controls", scroll to the bottom, and set a keybind for "Open Voice Control Panel".
+3. Pressing this opens the control panel, which can be used to configure all aspects of the voice chat.
+
+Credit to lapisqui, Ryan for helping in the testing and debugging of the mod.
+Credit to Entropy for helping me test the mod on Linux.
+Credit to Trebuchet for the beautiful GUI sprites.
+Credit to Mirsario for helping fix a locale-related crash.
+
+
+
+InfraSonic 模组可以让您和朋友们直接通过泰拉语音聊天，不需要任何第三方软件！
+
+这个Mod相比语音软件有以下优点：
+- 音乐音量自动调节，当有人在说话时，自动降低游戏背景音乐的音量
+- 近距离聊天，玩家离得越近声音就越大
+- 降噪，滤去背景中的噪音。
+- 与 Terraria Overhaul(大修模组) 兼容的声音遮挡和混响支持。
+
+使用方法：
+1. 订阅此Mod
+2. 进入游戏，进入“控件”，拉到底下，为“语音按键”设置一个快捷键
+3. 按下此键可打开控制面板，用于配置语音聊天的一切
+
+感谢 lapisqui, Ryan 在模组测试和调试过程中提供的帮助。
+感谢 Entropy 帮助测试 Linux 兼容性。
+
+模组在 [url=https://github.com/terraria-catalyst/infrasonic-mod]GitHub[/url] 上开源
