@@ -10,6 +10,7 @@
         <RootNamespace>InfraSonic</RootNamespace>
 
         <AssemblyPublicizerPaths>$(AssemblyPublicizerPaths);$(MSBuildThisFileDirectory)infrasonic.publicizer.js</AssemblyPublicizerPaths>
+		<OverrideTMLBuildTask>true</OverrideTMLBuildTask>
     </PropertyGroup>
 
     <ItemGroup>

@@ -27,7 +27,7 @@ public partial class InfraSonic : Mod
     private static DynamicSpriteFont englishFont;
     private static DynamicSpriteFont chineseFont;
 
-    // Kept to avoid settings from legacy versions getting replaced.
+    // Kept to avoid settings from legacy versions being lost.
     public static readonly string CachePath = Path.Combine(Main.SavePath, "TerraVoice");
 
     public static readonly Color Cyan = new(130, 233, 229);
