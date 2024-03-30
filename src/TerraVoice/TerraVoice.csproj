@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="../../catalyst/Mod.Build.targets" />
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Nullable>enable</Nullable>
+        <RootNamespace>TerraVoice</RootNamespace>
+
+        <AssemblyPublicizerPaths>$(AssemblyPublicizerPaths);$(MSBuildThisFileDirectory)terravoice.publicizer.js</AssemblyPublicizerPaths>
+		<OverrideTMLBuildTask>true</OverrideTMLBuildTask>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.DotNet.PlatformAbstractions">
+        <HintPath>lib\Microsoft.DotNet.PlatformAbstractions.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Extensions.DependencyModel">
+        <HintPath>lib\Microsoft.Extensions.DependencyModel.dll</HintPath>
+      </Reference>
+      <Reference Include="P-OpusCore">
+        <HintPath>lib\P-OpusCore.dll</HintPath>
+      </Reference>
+      <Reference Include="Silk.NET.Core">
+        <HintPath>lib\Silk.NET.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Silk.NET.OpenAL">
+        <HintPath>lib\Silk.NET.OpenAL.dll</HintPath>
+      </Reference>
+      <Reference Include="Silk.NET.OpenAL.Extensions.EXT">
+        <HintPath>lib\Silk.NET.OpenAL.Extensions.EXT.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
