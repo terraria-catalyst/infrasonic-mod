@@ -10,7 +10,7 @@ namespace TerraVoice.Systems;
 [Autoload(Side = ModSide.Client)]
 internal sealed class VoiceOutputSystem : ModSystem
 {
-    public const int MaxProximityRange = 96;
+    public const int MaxProximityRange = 192;
 
     private static PlayerSpeaker[] playerSpeakers;
 
