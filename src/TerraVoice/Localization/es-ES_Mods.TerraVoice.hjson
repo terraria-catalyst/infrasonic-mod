@@ -1,72 +1,74 @@
 UI: {
-	NoInputDevice: No Input Device
-	EnableTestMode: Enable Mic and Test to Visualize
-	Mic: Mic
-	Test: Test
-	Denoise: Denoise
-	NoIcons: No Icons
+	NoInputDevice: Sin dispositivo de entrada
+	EnableTestMode: Habilita el 'micrófono' y 'probar', para usar el visualizador
+	Mic: Micrófono
+	Test: Probar
+	Denoise: Supresión de ruido
+	NoIcons: Sin iconos
 	VolumeDisplay: AMP
 	ChannelDisplay: CHNL
-	NotOnline: Currently Offline
-	NoOtherPlayers: No Players Detected
-	CurrentlyTracking: Currently Tracking:
+	NotOnline: Actualmente desconectado
+	NoOtherPlayers: No se detectaron jugadores
+	CurrentlyTracking: Actualmente rastreando:
 	Distance: "{0} ft."
-	MutedYes: Muted : Yes
+	MutedYes: Muted : Sí
 	MutedNo: Muted : No
 	Inf: Inf.
 
 	Tooltips: {
 		Visualizer:
 			'''
-			Allows you to visualize your voice input.
-			AMP is your voice input volume.
-			CHNL is the channel you are using.
-			Other players will only hear you if they are on the same channel as you.
+			Le permite visualizar su entrada de voz.
+			[c/e272af:AMP]: es el volumen de entrada de voz.
+			[c/e272af:CHNL]: es el canal que estás utilizando.
+			Los demás jugadores solo te escucharán si están en el mismo [c/e272af:canal/CHNL] que tú.
 			'''
 		DeviceSwitcher:
 			'''
-			Displays the microphone currently in use.
-			Press the button right of the screen to switch devices.
+			Muestra el nombre del micrófono que está actualmente en uso.
+			Presione el botón de las [c/54fcfc:flechas cruzándose], que está a la derecha de la pantalla, para cambiar de dispositivo.
 			'''
 		DualKnob:
 			'''
-			Click and drag to adjust your input volume.
-			Use the scroll wheel to change voice channels.
+			Mantén el clic izquierdo y muévalo, para ajustar el volumen de entrada.
+			Utilice la rueda del ratón para cambiar el [c/e272af:canal/CHNL] de voz.
 			'''
 		PlayerDisplay:
 			'''
-			This screen displays a selected online player.
-			Press the button upper-right of the screen to change players.
-			Press the button lower-right of the screen to mute the player shown.
+			Esta pantalla muestra al jugador en línea seleccionado.
+			Pulsa el botón en la esquina superior derecha de la pantalla para cambiar de jugador.
+			Pulsa el botón en la esquina inferior derecha de la pantalla para silenciar(muted), al jugador mostrado.
 			'''
 		OpenMic:
 			'''
-			When this button is pushed, your voice will transmitted constantly.
-			Noise suppression is recommended with this setting.
+			Al pulsar este botón, su voz se transmitirá constantemente.
+			Si tienes activa esta opción, se recomienda también tener activa la supresión de ruido.
 			'''
 		PushToTalk:
 			'''
-			When this button is pushed, your voice will only be transmitted if a key is held.
-			This key can be bound in the controls menu.
+			Al pulsar este botón, tu voz solo se transmitirá si se mantiene pulsada una tecla.
+			Para asignar dicha tecla, primero pausa el juego,
+			luego ve a [c/54fcfc:controles], después a [c/54fcfc:infraSonic] y asigna una tecla a la opción [c/54fcfc:pulsar para hablar].
 			'''
 		Slider:
 			'''
-			Use this slider to adjust the maximum distance voices will be heard from.
-			The range (in tiles) is shown on the right.
-			When set to 0, the range will be unlimited.
+			[c/e272af:Voz de proximidad]
+			Usa este control deslizante para ajustar la distancia máxima desde la que se escucharán las voces.
+			El alcance de la voz, que se mide en bloques de distancia, se muestra a la derecha.
+			Al establecerlo en 0, el alcance será ilimitado.
 			'''
-		Mic: When activated, your microphone will pick up your voice.
+		Mic: Cuando esté activado, tu micrófono captará tu voz.
 		Test:
 			'''
-			When activated, you will be able to hear your own voice.
-			The audio visualizer will be shown if the 'TEST' and 'MIC' switches are on.
+			Cuando esté activado, podrás escuchar tu propia voz.
+			El visualizador de audio se mostrará si los interruptores [c/54fcfc:micrófono] y [c/54fcfc:probar] están activados.
 			'''
-		Denoise: When activated, noise suppression will be applied to your voice.
-		NoIcons: When activated, no voice icons will be shown.
+		Denoise: Cuando se activa, se aplicará la supresión de ruido a tu voz.
+		NoIcons: Cuando esté activado, no se mostrarán los iconos de cuando alguien está hablando.
 	}
 }
 
 Keybinds: {
-	VoiceControlPanel.DisplayName: Open Voice Control Panel
-	PushToTalk.DisplayName: Push To Talk
+	VoiceControlPanel.DisplayName: Abrir/cerrar panel de control de voz
+	PushToTalk.DisplayName: Pulsar para hablar
 }
