@@ -1,0 +1,74 @@
+UI: {
+	NoInputDevice: Sin dispositivo de entrada
+	EnableTestMode: Habilita el 'micrófono' y 'probar', para usar el visualizador
+	Mic: Micrófono
+	Test: Probar
+	Denoise: Supresión de ruido
+	NoIcons: Sin iconos
+	VolumeDisplay: AMP
+	ChannelDisplay: CHNL
+	NotOnline: Actualmente desconectado
+	NoOtherPlayers: No se detectaron jugadores
+	CurrentlyTracking: Actualmente rastreando:
+	Distance: "{0} ft."
+	MutedYes: Muted : Sí
+	MutedNo: Muted : No
+	Inf: Inf.
+
+	Tooltips: {
+		Visualizer:
+			'''
+			Le permite visualizar su entrada de voz.
+			[c/e272af:AMP]: es el volumen de entrada de voz.
+			[c/e272af:CHNL]: es el canal que estás utilizando.
+			Los demás jugadores solo te escucharán si están en el mismo [c/e272af:canal/CHNL] que tú.
+			'''
+		DeviceSwitcher:
+			'''
+			Muestra el nombre del micrófono que está actualmente en uso.
+			Presione el botón de las [c/54fcfc:flechas cruzándose], que está a la derecha de la pantalla, para cambiar de dispositivo.
+			'''
+		DualKnob:
+			'''
+			Mantén el clic izquierdo y muévalo, para ajustar el volumen de entrada.
+			Utilice la rueda del ratón para cambiar el [c/e272af:canal/CHNL] de voz.
+			'''
+		PlayerDisplay:
+			'''
+			Esta pantalla muestra al jugador en línea seleccionado.
+			Pulsa el botón en la esquina superior derecha de la pantalla para cambiar de jugador.
+			Pulsa el botón en la esquina inferior derecha de la pantalla para silenciar(muted), al jugador mostrado.
+			'''
+		OpenMic:
+			'''
+			Al pulsar este botón, su voz se transmitirá constantemente.
+			Si tienes activa esta opción, se recomienda también tener activa la supresión de ruido.
+			'''
+		PushToTalk:
+			'''
+			Al pulsar este botón, tu voz solo se transmitirá si se mantiene pulsada una tecla.
+			Para asignar dicha tecla, primero pausa el juego,
+			luego ve a [c/54fcfc:controles], después a [c/54fcfc:infraSonic] y asigna una tecla a la opción [c/54fcfc:pulsar para hablar].
+			'''
+		Slider:
+			'''
+			[c/e272af:Voz de proximidad]
+			Usa este control deslizante para ajustar la distancia máxima desde la que se escucharán las voces.
+			El alcance de la voz, que se mide en bloques de distancia, se muestra a la derecha.
+			Al establecerlo en 0, el alcance será ilimitado.
+			'''
+		Mic: Cuando esté activado, tu micrófono captará tu voz.
+		Test:
+			'''
+			Cuando esté activado, podrás escuchar tu propia voz.
+			El visualizador de audio se mostrará si los interruptores [c/54fcfc:micrófono] y [c/54fcfc:probar] están activados.
+			'''
+		Denoise: Cuando se activa, se aplicará la supresión de ruido a tu voz.
+		NoIcons: Cuando esté activado, no se mostrarán los iconos de cuando alguien está hablando.
+	}
+}
+
+Keybinds: {
+	VoiceControlPanel.DisplayName: Abrir/cerrar panel de control de voz
+	PushToTalk.DisplayName: Pulsar para hablar
+}
