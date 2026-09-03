@@ -1,0 +1,72 @@
+UI: {
+	NoInputDevice: No Input Device
+	EnableTestMode: Enable Mic and Test to Visualize
+	Mic: Mic
+	Test: Test
+	Denoise: Denoise
+	NoIcons: No Icons
+	VolumeDisplay: AMP
+	ChannelDisplay: CHNL
+	NotOnline: Currently Offline
+	NoOtherPlayers: No Players Detected
+	CurrentlyTracking: Currently Tracking:
+	Distance: "{0} ft."
+	MutedYes: Muted : Yes
+	MutedNo: Muted : No
+	Inf: Inf.
+
+	Tooltips: {
+		Visualizer:
+			'''
+			Allows you to visualize your voice input.
+			AMP is your voice input volume.
+			CHNL is the channel you are using.
+			Other players will only hear you if they are on the same channel as you.
+			'''
+		DeviceSwitcher:
+			'''
+			Displays the microphone currently in use.
+			Press the button right of the screen to switch devices.
+			'''
+		DualKnob:
+			'''
+			Click and drag to adjust your input volume.
+			Use the scroll wheel to change voice channels.
+			'''
+		PlayerDisplay:
+			'''
+			This screen displays a selected online player.
+			Press the button upper-right of the screen to change players.
+			Press the button lower-right of the screen to mute the player shown.
+			'''
+		OpenMic:
+			'''
+			When this button is pushed, your voice will transmitted constantly.
+			Noise suppression is recommended with this setting.
+			'''
+		PushToTalk:
+			'''
+			When this button is pushed, your voice will only be transmitted if a key is held.
+			This key can be bound in the controls menu.
+			'''
+		Slider:
+			'''
+			Use this slider to adjust the maximum distance voices will be heard from.
+			The range (in tiles) is shown on the right.
+			When set to 0, the range will be unlimited.
+			'''
+		Mic: When activated, your microphone will pick up your voice.
+		Test:
+			'''
+			When activated, you will be able to hear your own voice.
+			The audio visualizer will be shown if the 'TEST' and 'MIC' switches are on.
+			'''
+		Denoise: When activated, noise suppression will be applied to your voice.
+		NoIcons: When activated, no voice icons will be shown.
+	}
+}
+
+Keybinds: {
+	VoiceControlPanel.DisplayName: Open Voice Control Panel
+	PushToTalk.DisplayName: Push To Talk
+}
